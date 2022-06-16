@@ -1,12 +1,12 @@
-Pasos para ejecutar el programa:
+# Python Lexical Analyzer
+Python lexical analyzer written in C
 
-make
-./Compilador argumento
+## Steps to run the program:
 
--argumento: El nombre del archivo con el que ejecutar el programa. En este caso
-	    wilcoxon.py
+make ./Compiler argument
 
-make clean Para limpiar archivos generados
+-argument: The name of the file to run the program with. In this case wilcoxon.py
 
-En caso de querer usar GCC directamente, usar gcc *.c -lm ya que el programa usa la libreria
-matemática para la funcion intToArray(); del AnalizadorLexico.c
+make clean To clean generated files
+
+In case you want to use GCC directly, use gcc *.c -lm since the program uses the maths library for the intToArray(); function of the AnalizadorLexico.c
