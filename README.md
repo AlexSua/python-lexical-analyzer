@@ -3,9 +3,11 @@ Python lexical analyzer written in C
 
 ## Steps to run the program:
 
-make ./Compiler argument
+make
 
--argument: The name of the file to run the program with. In this case wilcoxon.py
+./Compilador argumento
+             -argumento: The name of the file to run the program with. 
+              In this case wilcoxon.py
 
 make clean To clean generated files
 
