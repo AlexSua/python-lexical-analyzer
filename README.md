@@ -6,6 +6,7 @@ Python lexical analyzer written in C
 make
 
 ./Compilador argumento
+             
              -argumento: The name of the file to run the program with. 
               In this case wilcoxon.py
 
