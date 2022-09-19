@@ -3,21 +3,26 @@ Python lexical analyzer written in C. It recognizes the Python subset existent i
 
 ## Steps to run the program:
 
+Build the project:
 ```bash
 make
 ```
-
+Format:
 ```bash
 ./Compilador <arg>
 ```     
 
+Run the analyzer:
 ```bash
 ./Compilador wilcoxon.py
 ```
 
 where:
-- **argumento**: The name of the python that is going to be analyzed.
+- **\<arg>**: The name of the python that is going to be analyzed.
 
-make clean To clean generated files
+Clean generated files:
+```bash
+make clean
+```
 
 In case you want to use GCC directly, use gcc *.c -lm since the program uses the maths library for the intToArray(); function of the AnalizadorLexico.c
