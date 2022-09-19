@@ -24,5 +24,3 @@ Clean generated files:
 ```bash
 make clean
 ```
-
-In case you want to use GCC directly, use gcc *.c -lm since the program uses the maths library for the intToArray(); function of the AnalizadorLexico.c
