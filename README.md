@@ -1,4 +1,4 @@
-# Python-lexical-analyzer
+# python-lexical-analyzer
 Python lexical analyzer written in C. It recognizes the Python subset existent in the wilcoxon.py file.
 
 ## Steps to run the program:
