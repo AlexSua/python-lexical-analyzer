@@ -1,14 +1,22 @@
 # Python Lexical Analyzer
-Python lexical analyzer written in C
+Python lexical analyzer written in C. It recognizes the Python subset existent in the wilcoxon.py file.
 
 ## Steps to run the program:
 
+```bash
 make
+```
 
-./Compilador argumento
-             
-             -argumento: The name of the file to run the program with. 
-              In this case wilcoxon.py
+```bash
+./Compilador <arg>
+```     
+
+```bash
+./Compilador wilcoxon.py
+```
+
+where:
+- **argumento**: The name of the python that is going to be analyzed.
 
 make clean To clean generated files
 
