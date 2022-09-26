@@ -11,14 +11,13 @@ Format:
 ```bash
 ./Compilador <arg>
 ```     
+where:
+- **\<arg>**: The name of the python that is going to be analyzed.
 
-Run the analyzer:
+Run the analyzer for wilcoxon.py:
 ```bash
 ./Compilador wilcoxon.py
 ```
-
-where:
-- **\<arg>**: The name of the python that is going to be analyzed.
 
 Clean generated files:
 ```bash
