@@ -3,23 +3,23 @@ Python lexical analyzer written in C. It recognizes the Python subset existent i
 
 ## Steps to run the program:
 
-Build the project:
+### Build the project:
 ```bash
 make
 ```
-Format:
+### Execute:
 ```bash
 ./Compilador <arg>
 ```     
 where:
 - **\<arg>**: The name of the python that is going to be analyzed.
 
-Run the analyzer for wilcoxon.py:
+#### Run the analyzer for wilcoxon.py:
 ```bash
 ./Compilador wilcoxon.py
 ```
 
-Clean generated files:
+### Clean generated files:
 ```bash
 make clean
 ```
